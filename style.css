@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&family=Lato:wght@400;900&display=swap');
+
+:root {
+    --fonte-principal: "Lato", sans-serif;
+    --fonte-secundario: "Khand", sans-serif;
+    --cor-principal: #FFFFFF;
+    --cor-secunario: #000000;
+    --background-principal: #0B0B11;
+    --background-secundario: linear-gradient(0deg, #C5D3E4 0%, #C5D3E4 100%);
+    --botao-contato: #5FCAD2;
+}
+
+/* início do cabeçalho */
+
+.navbar {
+    background-color: var(--background-principal);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: .8rem 0 .8rem 0;
+    position:fixed;
+    width: 100vw;
+    top:0;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__lista {
+    display: flex;
+    gap: 36px;
+    margin-left: 71px;
+}
+
+.navbar__lista__link {
+    color: var(--cor-principal);
+    font-family: var(--fonte-secundario);
+    font-weight: 600;
+}
+
+.navbar__contato {
+    color: var(--cor-principal);
+    background-color: var(--botao-contato);
+    font-family: var(--fonte-secundario);
+    font-weight: 600;
+    padding: .8rem;
+    border-radius: 2px;
+}
+
+/* fim do cabeçalho */
+
+/* inicio da seção principal */
+
+.secao__principal {
+    height: 100vh;
+    background-image: url(./imgs/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao__principal__texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+}
+
+.secao__principal__titulo {
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 70px;
+    width: 415.11px;
+    height: 170.017px;
+}
+
+.secao__principal__descricao {
+    width: 445px;
+    font-size: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+}
+
+.secao__principal__divisao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.secao__principal__imagem {
+    width: 50px;
+    height: 50px;
+}
+
+.secao__principal__botao {
+    background-color: #000000;
+    color: var(--cor-principal);
+    border-radius: 10px;
+    padding: 1.2rem 0.7rem;
+    font-family: var(--fonte-secundario);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* fim da seção principal */
+
+/* inicio da seção explicação */
+
+.secao__explicacao {
+    background: var(--background-secundario)
+}
+
+.secao__explicacao__descricao {
+    display: flex;
+}
