@@ -129,12 +129,15 @@
 
 .secao__explicacao {
     background: var(--background-secundario);
-    display: flex;
-    justify-content: space-evenly;
-    height: 2109px;
+    padding-bottom: 86px;
 }
 
-.secao__explicacao__descricao {
+.secao__explicacao__cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secao__explicacao__card {
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -144,7 +147,7 @@
     background: #D6D9E3;
     width: 280px;
     height: 362.746px;
-    position:relative;
+    position: relative;
     z-index: 1;
     bottom: 6rem;
 }
@@ -167,4 +170,52 @@
     color: var(--cor-secunario);
     font-family: var(--fonte-principal);
     font-weight: 500;
+}
+
+.secao__explicacao__descricao {
+    margin: 112px 10rem 0 10rem;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-right: 2px solid #0B0B11;
+    border-left: 2px solid #0B0B11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.secao__explicacao__descricao__titulo {
+    color: var(--cor-secunario);
+    font-family: var(--fonte-secundario);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.secao__explicacao__descricao__lista {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secao__explicacao__descricao__texto {
+    color: var(--cor-secunario);
+    font-family: var(--fonte-secundario);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* fim da seção explicação */
+
+/* início do rodapé */
+
+.rodape {
+    background-image: url(./imgs/footer-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--cor-secunario);
+    height: 425px;
+    width: 1270px;
 }
