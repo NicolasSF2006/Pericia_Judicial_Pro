@@ -1,0 +1,6 @@
+@import url(./style.css);
+
+.servicos__secao-cards {
+background-color: var(--backgroud-terciario);
+padding: 4rem 0 50rem 0;
+}

@@ -65,7 +65,7 @@
 /* inicio da seção principal */
 
 .secao__principal {
-    background-image: url(/imgs/backgroundPrincipal.png);
+    background-image: url(../imgs/backgroundPrincipal.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@
 /* início do rodapé */
 
 .rodape {
-    background-image: url(./imgs/footer-img.svg);
+    background-image: url(../imgs/footer-img.svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 425px;

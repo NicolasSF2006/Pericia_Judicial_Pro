@@ -19,7 +19,7 @@
 
 .sobre-pericia__secao-explicacao {
     background-color: var(--backgroud-terciario);
-    padding: 7rem 0;
+    padding: 4rem 0 7rem 0;
     display: flex;
     flex-wrap: wrap;
     gap: 6rem;

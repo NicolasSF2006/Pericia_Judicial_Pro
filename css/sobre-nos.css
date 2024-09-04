@@ -1,0 +1,40 @@
+@import url(./style.css);
+
+.sobre-nos__secao-explicacao {
+    background-color: var(--backgroud-terciario);
+    padding: 4rem 0 7rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.938rem;
+}
+
+.sobre-nos__secao-explicacao__divisao {
+    margin-left: 117px;
+}
+
+.sobre-nos__secao-explicacao__subtitulo {
+    color: var(--backgroud-principal);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.sobre-nos__secao-explicacao__titulo {
+    width: 300px;
+    height: 75px;
+    color: var(--backgroud-principal);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.sobre-nos__secao-explicacao__texto {
+    width: 977px;
+    color: var(--color-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
