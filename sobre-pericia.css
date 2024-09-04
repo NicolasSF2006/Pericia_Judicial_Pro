@@ -1,0 +1,35 @@
+@import url(./style.css);
+
+.sobre-pericia__secao-principal {
+    background-image: url(./imgs/sobrePericiaBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: calc(7rem - 2.15rem);
+    padding: 3.5rem 0px;
+}
+
+.sobre-pericia__titulo {
+    color: var(--color-principal);
+    font-family: var(--fonte-secundario);
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 116px;
+    text-transform: uppercase;
+}
+
+.sobre-pericia__secao-explicacao {
+    background-color: var(--backgroud-terciario);
+    padding: 7rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.sobre-pericia__secao-explicacao__divisao {
+    display: flex;
+    gap: 39px;
+    margin-left: 117px;
+    width: 911px;
+}
+
+
