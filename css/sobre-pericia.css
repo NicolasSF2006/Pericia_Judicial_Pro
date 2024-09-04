@@ -1,7 +1,7 @@
 @import url(./style.css);
 
 .sobre-pericia__secao-principal {
-    background-image: url(./imgs/sobrePericiaBackground.png);
+    background-image: url(../imgs/sobrePericiaBackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: calc(7rem - 2.15rem);
