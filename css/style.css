@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&family=Lato:wght@400;900&family=Roboto:ital,wght@0,400;1,900&display=swap');
 
 
 :root {
     --fonte-principal: "Lato", sans-serif;
     --fonte-secundario: "Khand", sans-serif;
+    --fonte-terciario: "Roboto", sans-serif;
     --color-principal: #FFFFFF;
     --color-secundario: #000000;
     --color-botao: #000614;

@@ -1,6 +1,36 @@
 @import url(./style.css);
 
 .servicos__secao-cards {
-background-color: var(--backgroud-terciario);
-padding: 4rem 0 50rem 0;
+    background-color: var(--backgroud-terciario);
+    padding: 4rem 4rem 7rem 4rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.servicos__secao-cards__card {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.servicos__secao-cards__card__titulo {
+    color: var(--color-secundario);
+    font-family: var(--fonte-terciario);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.servicos__secao-cards__card__texto {
+    color: var(--color-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
 }
