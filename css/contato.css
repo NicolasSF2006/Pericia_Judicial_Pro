@@ -1,0 +1,81 @@
+@import url(./style.css);
+
+.secao__principal-contato__titulo {
+    color: var(--color-principal);
+    padding-top: 10rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.secao__principal-contato__descricao {
+    margin: 1rem auto;
+    width: 225px;
+    height: 86.693px;
+    color: var(--color-principal);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.secao__principal-contato__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    background: #C5D3E4;
+}
+
+.secao__principal-contato__form__grupo__campo {
+    margin: 0 90px 13px 90px;
+}
+
+#nome {
+    margin-top: 27px;
+}
+
+.secao__principal-contato__form__grupo__campo input[type="text"],
+.secao__principal-contato__form__grupo__campo input[type="email"] {
+    width: 65vw;
+    height: 28px;
+    background-color: #F4F4F4;
+    border-style: none;
+}
+
+.secao__principal-contato__form__grupo__campo textarea {
+    width: 65vw;
+    height: 35vh;
+    background-color: #F4F4F4;
+    margin-bottom: 13px;
+    border-style: none;
+}
+
+.secao__principal-contato__form__grupo__campo input[placeholder], .secao__principal-contato__form__grupo__campo textarea[placeholder] {
+    color: var(--color-secundario);
+    font-family: var(--fonte-secundario);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.secao__principal-contato__form__grupo__botao {
+    align-self: end;
+    margin-right: 6rem;
+    width: 147px;
+    height: 42px;
+    justify-content: center;
+    border-radius: 5px;
+    background: var(--background-botao);
+    border-style: none;
+    color: var(--color-botao);
+    text-align: center;
+    font-family: var(--fonte-secundario);
+    font-size: 16px;
+    font-weight: 500;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Perícia Judicial | Home</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div>
+            <a href="./index.html"><img src="./imgs/testIcon.png" alt="" class="navbar__logo" width="50vw"
+                    height="50vh"></a>
+            <ul class="navbar__lista">
+                <li class="navbar__lista__item"><a href="./sobre-pericia.html" class="navbar__lista__link">Sobre
+                        perícia</a></li>
+                <li class="navbar__lista__item"><a href="./sobre-nos.html" class="navbar__lista__link">Sobre nós</a>
+                </li>
+                <li class="navbar__lista__item"><a href="./servicos.html" class="navbar__lista__link">Serviços</a></li>
+            </ul>
+        </div>
+        <a href="./contato.html" class="navbar__contato">Entre em contato</a>
+    </header>
+
+
+    <main>
+        <section class="secao__principal">
+            <div class="secao__principal-contato__texto">
+                <h1 class="secao__principal-contato__titulo">Quer falar com a gente?</h1>
+                <p class="secao__principal-contato__descricao">Nos envie sua mensagem pelo formulário e te responderemos por email! </p>
+            </div>
+
+            <form class="secao__principal-contato__form">
+                <fieldset class="secao__principal-contato__form__grupo">
+                    <div class="secao__principal-contato__form__grupo__campo">
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome:" required>
+                    </div>
+                    <div class="secao__principal-contato__form__grupo__campo">
+                        <input type="email" name="email" id="email" placeholder="Seu email:" required>
+                    </div>
+                    <div class="secao__principal-contato__form__grupo__campo">
+                        <input type="text" name="assunto" id="assunto" placeholder="Assunto:" required>
+                    </div>
+                </fieldset>
+
+                <div class="secao__principal-contato__form__grupo__campo">
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Como podemos ajudar?"></textarea>
+                </div>
+
+                <button class="secao__principal-contato__form__grupo__botao" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li class="rodape__item rodape__telefone">
+                <img src="./imgs/tel-icon.svg" alt="" class="rodape__imagem">
+                <p class="rodape__texto">0800 019283-019482</p>
+            </li>
+            <li class="rodape__item rodape__email">
+                <img src="./imgs/email-icon.svg" alt="" class="rodape__imagem">
+                <p class="rodape__texto">emailemailemail@gmail.com</p>
+            </li>
+        </ul>
+
+        <p class="rodape__cnpj">CNPJ: 128930294928</p>
+    </footer>
+</body>
+
+</html>
