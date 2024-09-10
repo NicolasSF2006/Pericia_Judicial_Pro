@@ -1,5 +1,14 @@
 @import url(./style.css);
 
+.secao__principal-contato {
+    background-image: url(../imgs/backgroundPrincipal.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-color: #000719;
+}
+
 .secao__principal-contato__titulo {
     color: var(--color-principal);
     padding-top: 10rem;
@@ -26,9 +35,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    width: 80vw;
-    height: 80vh;
+    padding: 1rem 0;
+    width: 80%;
     border-radius: 20px;
     background: #C5D3E4;
 }
@@ -66,7 +76,7 @@
 
 .secao__principal-contato__form__grupo__botao {
     align-self: end;
-    margin-right: 6rem;
+    margin-right: 8.3rem;
     width: 147px;
     height: 42px;
     justify-content: center;

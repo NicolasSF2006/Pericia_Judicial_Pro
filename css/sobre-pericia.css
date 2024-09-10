@@ -1,5 +1,6 @@
 @import url(./style.css);
 
+
 .sobre-pericia__secao-principal {
     background-image: url(../imgs/sobrePericiaBackground.png);
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@
     background-color: var(--backgroud-terciario);
     padding: 4rem 0 7rem 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 6rem;
 }
 
